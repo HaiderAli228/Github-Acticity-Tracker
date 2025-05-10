@@ -12,7 +12,9 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blue,
         centerTitle: true,
+        title: Text("Git Activity Tracker",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18,color: Colors.white),),
       ),
     );
   }
